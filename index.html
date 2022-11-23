@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class ="heading">Todo.io</h1>
+    <h2 id ="subhead">Create a new todo</h2>
+    <form id ="newidea" onsubmit= "getvalue(event)" >
+        <label for="inpu1" class = "todo">Title </label><br>
+        <input type="text" id = "inpu1" name="inpu1" class = 'textarea myf' ><br>
+        <label for="gname" class ="todo">Description</label><br>
+        <textarea name="gname" id="inpu2" class = "myf"cols="30" rows="10"></textarea>
+        <button type="submit" class = "btn1" form="newidea" id="sub" value="submit"><b>Create todo</b></button>
+        <button class = "gettodos" formaction="/test.html">Get todos</button>
+        <button id = "gettodos1" type="button" class="gettodos" onclick="newfunc(event)"> Remove todo</button>
+        
+    </form>
+    <form id ="removal" onsubmit="removintodo(event)" style="margin-top:60px ;"  hidden>
+        <label for="remvoing todo" style="font-weight:bolder ; margin-left: 100vh;" >Remove todo</label><br>
+        <input type="text" id ="removingtodo" style="width : 200vh ; margin-left: 10px; margin-top: 10px;"><br>
+        <input type="submit" style="margin-top: 15px; margin-left:101vh ; background-color:rgb(24, 24, 152) ; color: white; font-weight: bolder;height: 40px; width: 100px; border-radius: 10px;">
+    </form>
+ 
+    <script src="/test.js"></script>
+</body>
+</html>

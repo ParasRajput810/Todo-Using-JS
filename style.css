@@ -1,0 +1,69 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body{
+    background-color: #caf0f8;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    background-color: #2b2d42;
+    color: #caf0f8;
+    font-size: 40px;
+    align-items: center;
+    height: 80px;
+}
+#subhead{
+    margin-top: 40px;
+}
+#newidea{
+    margin-top: 40px;
+
+}
+
+.textarea{
+   
+    height: 20px;
+    
+}
+.todo{
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: bolder;
+   
+}
+
+.myf{
+    margin-top: 3px;
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    
+}
+.btn1{
+    margin-top: 40px;
+    margin-left: 80vh;
+    font-size: 20px;
+    height: 60px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #caf0f8;
+    background-color: royalblue;
+    
+}
+table th td{
+    border: 1px solid;
+}
+.gettodos{
+    background-color: royalblue;
+    color: #caf0f8;
+    height: 60px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
